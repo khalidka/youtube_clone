@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home:active{
+    background-color: #444;
+}
+i{
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(96,96.96);
+}

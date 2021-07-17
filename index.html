@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-md-1" style="padding-top: 15px; margin-left: 15px;">
+                <i class="fa fa-list" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-1" style="margin-right: 10px;">
+                <h5><span style="color: red;"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"
+                            id="logo"></i></span><span
+                        style="padding-bottom: 5px; font-size: 15px; font-family: sans-serif; font-weight: 730;">YouTube</span>
+                </h5>
+            </div>
+            <div class="col-md-6" style="margin-left: 30px;">
+                <div class="input-group">
+                    <input id="search" type="text" class="form-control" placeholder="Search" aria-describedby="basic-addon2">
+                    <span class="input-group-addon searchBtn" id="basic-addon2"><i class="fa fa-search" aria-hidden="true"
+                            style="flex-wrap: wrap; flex-basis: auto; position:relative; box-sizing: border-box; margin-bottom: 5px;"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-md-1">
+                <i class="fa fa-microphone fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="col-md-2" style="padding-top: 15px;">
+                <div class="pull-right">
+                    <div style="margin-right: 25px; display: inline;"><i class="fa fa-video-camera"
+                            aria-hidden="true"></i></div>
+                    <div style="margin-right: 25px; display: inline;"><i class="fa fa-th" aria-hidden="true"></i></div>
+                    <div style="margin-right: 25px; display: inline;"><i class="fa fa-bell" aria-hidden="true"></i>
+                    </div>
+                    <div style="margin-right: 25px; display: inline;"><i class="fa fa-user" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="row" style="margin-top: 35px;">
+            <div class="col-md-3" style="overflow-y: auto;">
+                <div class="row" id="home">
+                    <div class="col-md-1"><span style="color: red;"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="col-md-5">
+                        <strong>Home</strong>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-md-1"><span><i class="fa fa-compass" aria-hidden="true"></i></span></div>
+                    <div class="col-md-5">
+                        <strong>Explore</strong>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-md-1"><span><i class="fa fa-home" aria-hidden="true"></i></span></div>
+                    <div class="col-md-5">
+                        <strong>Subscricptions</strong>
+                    </div>
+                </div>
+                <hr>
+                <div style="margin-right: 35px;">
+                    <div class="row">
+                        <div class="col-md-1"><span><i class="fa fa-home" aria-hidden="true"></i></span></div>
+                        <div class="col-md-5">
+                            <strong>Library</strong>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"><span><i class="fa fa-history" aria-hidden="true"></i></span></div>
+                        <div class="col-md-5">
+                            <strong>History</strong>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"><span><i class="fa fa-caret-square-o-right" aria-hidden="true"></i>
+                            </span></div>
+                        <div class="col-md-5">
+                            <strong>Your videos</strong>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span></div>
+                        <div class="col-md-5">
+                            <strong>Watch later</strong>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"><span><i class="fa fa-thumbs-up" aria-hidden="true"></i> </span></div>
+                        <div class="col-md-5">
+                            <strong>Liked videos</strong>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"><span><i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            </span></div>
+                        <div class="col-md-5">
+                            <strong>Show more</strong>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p>MORE FROM YOUTUBE</p>
+                <div class="row">
+                    <div class="col-md-1"><i class="fa fa-gamepad" aria-hidden="true"></i></span></div>
+                    <div class="col-md-5">
+                        <strong>Gaming</strong>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"><span><i class="fa fa-snowflake-o" aria-hidden="true"></i></span></div>
+                    <div class="col-md-5">
+                        <strong>Live</strong>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"><span><i class="fa fa-trophy" aria-hidden="true"></i></span></div>
+                    <div class="col-md-5">
+                        <strong>Sports</strong>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-1"><span><i class="fa fa-cog" aria-hidden="true"></i>
+                        </span></div>
+                    <div class="col-md-5">
+                        <strong>Settings</strong>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"><span><i class="fa fa-flag" aria-hidden="true"></i>
+                        </span></div>
+                    <div class="col-md-5">
+                        <strong>Report history</strong>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"><span><i class="fa fa-question-circle" aria-hidden="true"></i>
+                        </span></div>
+                    <div class="col-md-5">
+                        <strong>Help</strong>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"><span><i class="fa fa-commenting-o" aria-hidden="true"></i>
+                        </span></div>
+                    <div class="col-md-5">
+                        <strong>Send feedback</strong>
+                    </div>
+                </div>
+                <hr>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        About Press Copyright
+                        Contact us Creators
+                        Advertise Developers
+                        <br>
+                        Terms Privacy Policy & Safety
+                        How YouTube works
+                        Test new features
+                    </div>
+                    <div class="panel-footer">© 2021 Google LLC</div>
+                </div>
+
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div>
+                        <div class="col-md-12" style="bottom: 15px;" id="topicsBadges">
+                            <!-- <div class="col-md-1">
+                                <a href="#"><span class="badge badge-md">All</span></a>
+                            </div>
+                            <div class="col-md-1">
+                                <a href="#"><span class="badge badge-md">القرآن الكريم</span></a>
+                            </div>
+                            <div class="col-md-1">
+                                <a href="#"><span class="badge badge-md">Javascript</span></a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="#"><span class="badge badge-md">Computer programming</span></a>
+                            </div>
+                            <div class="col-md-1">
+                                <a href="#"><span class="badge badge-md">Website</span></a>
+                            </div>
+                            <div class="col-md-1">
+                                <a href="#"><span class="badge badge-md">Python</span></a>
+                            </div>
+                            <div class="col-md-1">
+                                <a href="#"><span class="badge badge-md">Django</span></a>
+                            </div>
+                            <div class="col-md-1">
+                                <a href="#"><span class="badge badge-md">Gaming</span></a>
+                            </div>
+                            <div class="col-md-1">
+                                <a href="#"><span class="badge badge-md">Lectures</span></a>
+                            </div>
+                            <div class="col-md-1">
+                                <a href="#"><span class="badge badge-md">علوم الحديث</span></a>
+                            </div>
+                            <div class="col-md-1">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 jumbotron" id="videos">
+
+                        <!-- <div class="col-md-3">
+                            <div class="row">
+                               
+                            </div>
+                        </div>
+                        <div class="col-md-3"ظ     >
+                            <div class="row">
+                                <div class="thumbnail">
+                                    <img src="https://i.ytimg.com/vi/BHwgnGEhYG8/maxresdefault.jpg" alt="..."
+                                        style="box-shadow: rgba(96,96,96,0.5 );">
+                                    <div class="caption">
+                                        <h3>Full Stack React & Django</h3>
+                                        <p></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="thumbnail">
+                                    <img src="http://slidetodoc.com/presentation_image_h/d954a088be17f88cf007430ab3641805/image-1.jpg"
+                                        alt="..." style="box-shadow: rgba(96,96,96,0.5 );">
+                                    <div class="caption">
+                                        <h3>React Crash <br>Course</h3>
+                                        <p></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="thumbnail">
+                                    <img src="https://i.ytimg.com/vi/BHwgnGEhYG8/maxresdefault.jpg" alt="..."
+                                        style="box-shadow: rgba(96,96,96,0.5 );">
+                                    <div class="caption">
+                                        <h3>Python & MySQL Crash Course</h3>
+                                        <p></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <img src="https://i.ytimg.com/vi/BHwgnGEhYG8/maxresdefault.jpg" alt="..."
+                                    style="box-shadow: rgba(96,96,96,0.5 );">
+                                <div class="caption">
+                                    <h3>Python & MySQL Crash Course</h3>
+                                    <p></p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <img src="https://i.ytimg.com/vi/BHwgnGEhYG8/maxresdefault.jpg" alt="..."
+                                    style="box-shadow: rgba(96,96,96,0.5 );">
+                                <div class="caption">
+                                    <h3>Python & MySQL Crash Course</h3>
+                                    <p></p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <img src="https://i.ytimg.com/vi/BHwgnGEhYG8/maxresdefault.jpg" alt="..."
+                                    style="box-shadow: rgba(96,96,96,0.5 );">
+                                <div class="caption">
+                                    <h3>Python & MySQL Crash Course</h3>
+                                    <p></p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <img src="https://i.ytimg.com/vi/BHwgnGEhYG8/maxresdefault.jpg" alt="..."
+                                    style="box-shadow: rgba(96,96,96,0.5 );">
+                                <div class="caption">
+                                    <h3>Python & MySQL Crash Course</h3>
+                                    <p></p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> -->
+                </div>
+
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+            </div>
+
+
+        </div>
+        <script src="https://use.fontawesome.com/af00e6516f.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+            integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+            crossorigin="anonymous"></script>
+
+        <script src="data.js"></script>    
+        <script src="main.js"></script>    
+</body>
+
+</html>
